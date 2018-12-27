@@ -1,4 +1,4 @@
-const CACHE_NAME = 'firstpwa-v1-1';
+const CACHE_NAME = 'firstpwa-v1-2';
 var urlsToChache = 
 [
     "/",
