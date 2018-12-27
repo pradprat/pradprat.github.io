@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded',function()
     M.Sidenav.init(elems);
     loadNav();
 
+    // Load Navbar
     function loadNav() 
     {
         var xhttp = new XMLHttpRequest();
@@ -12,36 +13,41 @@ document.addEventListener('DOMContentLoaded',function()
         {  
             if (this.readyState == 4) 
             {
-                if (this.status != 200) 
+                if (this.status != 200) //Fail
                 {
                     return;
                 }
-
-                document.querySelectorAll('.topnav').forEach(function (elm) 
-                {  
-                    elm.innerHTML = xhttp.responseText;
-                });
-
-                document.querySelectorAll('.sidenav').forEach(function (elm) 
-                {  
-                    elm.innerHTML = xhttp.responseText;
-                });
-
-                document.querySelectorAll('.sidenav a','.topnav a').forEach(function(elm)
+                else
                 {
-                    elm.addEventListener('click',function (event) 
-                    {
-                        var sidenav = document.querySelector('.sidenav');
-                        M.Sidenav.getInstance(sidenav).close();
+                    document.querySelector('.sidenav').innerHTML = xhttp.responseText;
 
-                        page = event.target.getAttribute('href').substr(1);
-                        loadPage(page);
+                    document.querySelector('.topnav').innerHTML = xhttp.responseText;
+
+                    document.querySelectorAll('.sidenav a').forEach(function(elm)
+                    {
+                        elm.addEventListener('click',function (event) 
+                        {
+                            var sidenav = document.querySelector('.sidenav');
+                            M.Sidenav.getInstance(sidenav).close();
+
+                            page = event.target.getAttribute('href').substr(1);
+                            loadPage(page);
+                        });
                     });
-                });
+
+                    document.querySelectorAll('.topnav a').forEach(function(elm)
+                    {
+                        elm.addEventListener('click',function (event) 
+                        {
+                            page = event.target.getAttribute('href').substr(1);
+                            loadPage(page);
+                        });
+                    });
+                }
             }
         };
 
-        xhttp.open('GET','../assets/html/nav.html',true);
+        xhttp.open('GET','../html/nav.html',true);
         xhttp.send();
         
     }
@@ -64,17 +70,18 @@ document.addEventListener('DOMContentLoaded',function()
                 if (this.status == 200)
                 {
                     content.innerHTML = xhttp.responseText;
-                } else 
-                if (this.status == 404)
+                } 
+                else if (this.status == 404)
                 {
                     content.innerHTML = '<p>Halaman tidak ditemukan.</p>';
-                } else
+                } 
+                else
                 {
                     content.innerHTML = '<p>Ups.. halaman tidak dapat diakses.</p>'
                 }
             }
         };
-        xhttp.open('GET','../assets/html/pages/' + page + '.html',true);
+        xhttp.open('GET','../pages/' + page + '.html',true);
         xhttp.send();
     }
     
