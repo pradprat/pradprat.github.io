@@ -20,7 +20,7 @@ workbox.precaching.precacheAndRoute([
 ]);
 
 workbox.routing.registerRoute(
-    new RegExp('^http://api.football-data.org/v2/competitions/'),
+    new RegExp('^https://api.football-data.org/v2/competitions/'),
     workbox.strategies.staleWhileRevalidate({
         cacheName: 'football-data'
     })
