@@ -1,0 +1,17 @@
+{
+    "name": "soccer app",
+    "short_name": "soccer",
+    "gcm_sender_id": "695931788161",
+    "description": "aplikasi informasi tentang football",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "icons": [
+        {
+            "src": "img/ball.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

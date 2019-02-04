@@ -1,0 +1,41 @@
+.navbar-fixed{
+    z-index: 100;
+}
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background-color: #eee;
+    visibility: hidden;
+	
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+#match,#team,#watchLater{
+    margin-top: 50px;
+    padding: 16px;
+}
+.card{
+    padding-top: 16px;
+    overflow: hidden;
+}
+.team-img{
+    max-width: 50px;
+    display : block;
+    margin : auto;
+}
+.visible{
+    visibility: visible;
+}
+.invisible{
+    visibility: hidden;
+}
+
+.bg-red{
+    background: rgba(233, 46, 46, 0.733);
+}
+.pointer {cursor: pointer;}

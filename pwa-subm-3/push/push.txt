@@ -1,0 +1,3 @@
+endpoint:  https://updates.push.services.mozilla.com/wpush/v1/gAAAAABcUpR5am3mgzd1r3tJ2RaUYEeV4o_gwmDRUmnJLKkoOKfEu0VZ2HT84ZQnf1OhwqR2M7rZ1uY37FYm_wt4Cquowq8F9PNf9XSJHg6g6bcYID-cX8Pa52ulasI8vuTjGwLj6EU1
+p256dh key:  BKUeR45TteRBcYjzt+tEwAI1R9ZzZZ5IJQE1SPMx1M1O1sFJEEnyjaySaBNUqVvy8dHZ3po9JDomW4zJ4vf9/MM=
+auth key:  A6TfrOvlDy3/y3+paTc3wQ==
