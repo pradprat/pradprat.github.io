@@ -1,6 +1,5 @@
 const API_TOKEN = '19a919608a1e40d6983802317a21b56a';
-const url = 'http://api.football-data.org/v2/competitions';
-url = url.replace(/^http:\/\//i, 'https://');
+const url = 'https://api.football-data.org/v2/competitions';
 var list_competitions = [2001,2002,2003,2014,2015,2016,2017,2018];
 const monthName = [
     'Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'
