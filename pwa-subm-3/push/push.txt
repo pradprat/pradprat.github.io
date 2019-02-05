@@ -1,3 +1,4 @@
-endpoint:  https://updates.push.services.mozilla.com/wpush/v1/gAAAAABcUpR5am3mgzd1r3tJ2RaUYEeV4o_gwmDRUmnJLKkoOKfEu0VZ2HT84ZQnf1OhwqR2M7rZ1uY37FYm_wt4Cquowq8F9PNf9XSJHg6g6bcYID-cX8Pa52ulasI8vuTjGwLj6EU1
-p256dh key:  BKUeR45TteRBcYjzt+tEwAI1R9ZzZZ5IJQE1SPMx1M1O1sFJEEnyjaySaBNUqVvy8dHZ3po9JDomW4zJ4vf9/MM=
-auth key:  A6TfrOvlDy3/y3+paTc3wQ==
+endpoint:  https://android.googleapis.com/gcm/send/cqikX0aC8ig:APA91bHRU2G0xW0dPHReEEY2O7rwTibMaE_0Jz4Q_C7oC1tydi7gpsiJkrY6EXIrXyPBcPbfNnTr6vOZHNhHtDR_iiydPXcPwqYI6cN4xtGsThL0_-uLEL0-djZjFLqOgaH_UF05yPZE
+p256dh key:  BF60XfSClyUNADLT8+1DJ+q1sYTcPhcRjIp60cRWH3kgwTZ1c19hG1CcFwm+Gyh5l+VvgMZNaIsOnIQPPLCirbY=
+auth key:  9Vjtg0NtCBf8xknP3zXRlQ==
+gcmAPIKey : AAAAogjEW4E:APA91bHx1QwRahLYYrxMaDfFtcBKuI-Ve4Oh98QZtllmJJhbd9YdJd-tT6-wxBP5wjfaOGufJZPQOx9A9bTH3zaKpniQfpG1M9FBSYyTNHqigEqwxXz1iECB_rKc9DJNYNYTYTgpnnLu
