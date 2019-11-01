@@ -1,0 +1,60 @@
+.cover{
+    object-fit: cover;
+}
+
+.center-crop{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#image-card{
+    margin-top: 16px;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex-shrink: 0;
+}
+
+.max-size-logo{
+    max-width: 100px;
+    /* max-height: 100px; */
+}
+
+.margin-logo{
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.margin-top-16{
+    margin-top: 16px;
+}
+
+
+.about-img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.content > h5 {
+    text-align: center;
+}
