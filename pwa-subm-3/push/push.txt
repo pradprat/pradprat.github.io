@@ -1,4 +1,0 @@
-endpoint:  https://android.googleapis.com/gcm/send/cqikX0aC8ig:APA91bHRU2G0xW0dPHReEEY2O7rwTibMaE_0Jz4Q_C7oC1tydi7gpsiJkrY6EXIrXyPBcPbfNnTr6vOZHNhHtDR_iiydPXcPwqYI6cN4xtGsThL0_-uLEL0-djZjFLqOgaH_UF05yPZE
-p256dh key:  BF60XfSClyUNADLT8+1DJ+q1sYTcPhcRjIp60cRWH3kgwTZ1c19hG1CcFwm+Gyh5l+VvgMZNaIsOnIQPPLCirbY=
-auth key:  9Vjtg0NtCBf8xknP3zXRlQ==
-gcmAPIKey : AAAAogjEW4E:APA91bHx1QwRahLYYrxMaDfFtcBKuI-Ve4Oh98QZtllmJJhbd9YdJd-tT6-wxBP5wjfaOGufJZPQOx9A9bTH3zaKpniQfpG1M9FBSYyTNHqigEqwxXz1iECB_rKc9DJNYNYTYTgpnnLu
